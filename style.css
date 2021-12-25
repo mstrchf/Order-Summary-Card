@@ -1,0 +1,145 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 5px;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .container {
+    position: relative;
+    /* width: 100%; */
+    /* max-width: 1440px; */
+    font-family: 'Red Had Display', sans-serif;
+    height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+  }
+
+  
+
+  .card {
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 550px;
+    min-width: 375px;
+    /* height: 95vh; */
+  }
+
+  .card-header img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .card-title {
+      color: hsl(223, 47%, 23%);
+      font-weight: 900;
+      margin-bottom: 1em;
+  }
+
+  .card-desc {
+      font-size: 1.25em;
+      color: hsl(225, 23%, 55%);
+      font-weight: 500;
+      /* margin-bottom: 1.5em; */
+  }
+
+  main {
+    padding: 2em 4em;
+  }
+
+  .price-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin: 2em 0;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4em;
+    margin-left: 1em;
+  }
+
+  .price h3, .price p {
+    margin: 0;
+  }
+
+  .price h3 {
+      color: hsl(223, 47%, 23%);
+  }
+
+  .price p {
+      color: hsl(224, 23%, 55%);
+      font-weight: 500;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+  }
+
+ span {
+     color: hsl(244, 73%, 55%);
+     font-weight: 700;
+ }
+
+ a:hover span {
+    color: hsl(244, 83%, 68%);
+ }
+
+
+
+  .pay-btn {
+    width: 100%;
+    border: none;
+    background: hsl(245, 75%, 52%);
+    font-size: 1em;
+    padding: 1.25em 0;
+    border-radius: 15px;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    margin-bottom: 1em;
+    box-shadow: 0 20px 50px 0 hsl(235, 100%, 90%);
+  }
+
+  .pay-btn:hover {
+      background: hsl(244, 83%, 68%);
+      cursor: pointer;
+  }
+
+  .cancel-btn {
+    border: none;
+    background: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 1em;
+    font-weight: 700;
+    margin: 1.5em 0;
+  }
+
+  .cancel-btn:hover {
+      color: hsl(223, 47%, 23%);
+      cursor: pointer;
+  }
